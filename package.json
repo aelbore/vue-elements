@@ -1,0 +1,24 @@
+{
+  "name": "vue-elements",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue serve ./src/main.js",
+    "start.wc": "http-server ./dist",
+    "build.card.wc": "vue build --target wc --name ar-card ./src/Card.vue"
+  },
+  "keywords": [
+    "web-components",
+    "custom-elements",
+    "vue",
+    "vue-elements"
+  ],
+  "author": "Arjay Elbore",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/cli": "^3.9.2",
+    "http-server": "^0.11.1",
+    "vue": "^2.6.10"
+  }
+}
