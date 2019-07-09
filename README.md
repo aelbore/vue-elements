@@ -102,5 +102,11 @@ npm run build.card.wc
 
   </body>
   </html>
-
   ```  
+ 
+### Run demo
+```
+http-server ./dist
+
+browse to http://localhost:8080/demo.html
+```
